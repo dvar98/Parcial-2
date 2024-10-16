@@ -396,3 +396,16 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+
+.antlr/
+.venv
+ComplexNumber.interp
+ComplexNumber.tokens
+ComplexNumberLexer.interp
+ComplexNumberLexer.tokens
+ComplexNumberParser.interp
+ComplexNumberParser.tokens
+ComplexNumberListener.py
+ComplexNumberLexer.py
+ComplexNumberParser.py
