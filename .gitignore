@@ -400,12 +400,11 @@ FodyWeavers.xsd
 
 .antlr/
 .venv
-ComplexNumber.interp
-ComplexNumber.tokens
-ComplexNumberLexer.interp
-ComplexNumberLexer.tokens
-ComplexNumberParser.interp
-ComplexNumberParser.tokens
-ComplexNumberListener.py
-ComplexNumberLexer.py
-ComplexNumberParser.py
+*.interp
+*.tokens
+ComplexNumbersListener.py
+ComplexNumbersLexer.py
+ComplexNumbersParser.py
+MapFilterLexer.py
+MapFilterListener.py
+MapFilterParser.py
