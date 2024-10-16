@@ -408,3 +408,6 @@ ComplexNumbersParser.py
 MapFilterLexer.py
 MapFilterListener.py
 MapFilterParser.py
+FourierTransformLexer.py
+FourierTransformListener.py
+FourierTransformParser.py
