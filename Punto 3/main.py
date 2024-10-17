@@ -19,10 +19,10 @@ class FourierTransformListener(ParseTreeListener):
     def getIterable(self, ctx):
         if ctx.NAME():
             return ctx.NAME().getText()  # Placeholder for actual data retrieval
-        elif ctx.list():
-            return [float(e.getText()) for e in ctx.list().elements().element()]
-        elif ctx.tuple():
-            return [float(e.getText()) for e in ctx.tuple().elements().element()]
+        elif ctx.list_():
+            return [float(e.getText()) for e in ctx.list_().elements().element()]
+        elif ctx.tuple_():
+            return [float(e.getText()) for e in ctx.tuple_().elements().element()]
         return []
 
     def calculateFourierTransform(self, data):
