@@ -3,9 +3,13 @@ grammar ComplexNumbers;
 // Parser rules
 prog: expr+ EOF;
 
-expr: complexNumber (op complexNumber)*;
+expr: term (op term)*;
 
-complexNumber: '(' realPart sign imaginaryPart 'i' ')';
+term: complexNumber | realNumber;
+
+complexNumber: '(' realPart? (sign? imaginaryPart 'i')? ')';
+
+realNumber: NUMBER;
 
 realPart: NUMBER;
 imaginaryPart: NUMBER;

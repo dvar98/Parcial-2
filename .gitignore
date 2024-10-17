@@ -411,3 +411,5 @@ MapFilterParser.py
 FourierTransformLexer.py
 FourierTransformListener.py
 FourierTransformParser.py
+
+test/
