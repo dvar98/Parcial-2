@@ -5,17 +5,15 @@ Este repositorio contiene el código y los archivos relacionados con el segundo 
 ## Contenido
 
 - **Punto 1:** Diseñe una gramática para un lenguaje de programación que pueda hacer operaciones con números complejos.
-- **Punto 2:** Diseñe una gramática para un lenguaje de programación que realice las siguientes funciones :
-  • Aplicar una función sobre los ítems de un objeto iterable
-(lista, tupla, etc...)
-o Ejemplo MAP(function, objeto iterable)
-o Implemente en ANTLR. Lenguaje objetivo Python
-• A partir de una lista o iterador y una función
-condicional, es capaz de devolver una nueva colección con
-los elementos filtrados que cumplan la condición.
-o Ejemplo: FILTER(multiple, numeros)
-o Implemente en ANTLR. Lenguaje objetivo Python
+- **Punto 2:** Diseñe una gramática para un lenguaje de programación que realice las siguientes funciones:
+  - Aplicar una función sobre los ítems de un objeto iterable (lista, tupla, etc...)
+    - Ejemplo: `MAP(function, objeto iterable)`
+    - Implemente en ANTLR. Lenguaje objetivo Python
+  - A partir de una lista o iterador y una función condicional, devolver una nueva colección con los elementos filtrados que cumplan la condición.
+    - Ejemplo: `FILTER(multiple, numeros)`
+    - Implemente en ANTLR. Lenguaje objetivo Python
 - **Punto 3:** Diseñe una gramática para un lenguaje de programación que calcule la transformada de Fourier.
+
 ## Requisitos
 
 - Python 3.11
